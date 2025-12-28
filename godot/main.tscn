@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbawofj1vbhgf"]
+
+[ext_resource type="Texture2D" uid="uid://c48xpe7weo1y4" path="res://art/Tiles/tile_0110.png" id="1_ig7tw"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Player" parent="."]
+position = Vector2(632, 422)
+scale = Vector2(16.75, 14)
+texture = ExtResource("1_ig7tw")
